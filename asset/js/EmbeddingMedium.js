@@ -3,7 +3,7 @@
 $(function () {
     var mediumPromise = new Promise(function (resolve) {
         var $content = $('#jsonContent');
-        var data = {rss: 'https://medium.com/feed/@hungchienhsiang'};
+        var data = {rss: 'https://medium.com/feed/@patternmattcher'};
 
         // use http://jsonviewer.stack.hu/ to check json file easier
         $.get(
